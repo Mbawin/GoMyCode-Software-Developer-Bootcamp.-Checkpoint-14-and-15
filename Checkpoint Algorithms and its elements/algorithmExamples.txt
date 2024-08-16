@@ -1,0 +1,35 @@
+write an algorithm that read a sentence, which ends with a point, character by character,
+and to determine The length of the sentence (the number of characters):
+
+algorithm
+1. Initialize a counter variable to store the length of the sentence. Set it to 0.
+2. Read the first character of the sentence.
+3. Repeat the following steps until the current character is a period:
+   -Increment the counter by 1.
+   -Read the next character.
+4. The value of the counter now represents the length of the sentence.
+
+
+write an algorithm that read a sentence, which ends with a point, character by character,and to
+determine The number of words in the sentence (assuming that the words are separated by a single space).
+
+1. Initialize a counter variable to store the number of words. Set it to 0.
+2. Read the first character of the sentence.
+3. Repeat the following steps until the current character is a period:
+  -If the current character is a space and the previous character was not a space, 
+   increment the word counter.
+  -Read the next character.
+4. If the last character before the period is not a space, increment the word counter.
+5. The value of the counter now represents the number of words in the sentence.
+
+
+write an algorithm that read a sentence, which ends with a point, character by character, and to
+determine The number of vowels in the sentence.
+
+1. Initialize a counter variable to store the number of vowels. Set it to 0.
+2. Read the first character of the sentence.
+3. Repeat the following steps until the current character is a period:
+   -Check if the current character is a vowel (a, e, i, o, u, or their uppercase counterparts).
+   -If it is a vowel, increment the vowel counter.
+   -Read the next character.
+4. The value of the counter now represents the number of vowels in the sentence.
